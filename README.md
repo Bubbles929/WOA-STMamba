@@ -31,7 +31,7 @@ All model parameters can be set in `config.py`, such as the learning rate, batch
 #### Training the model
 
 ```python
-python train.py
+python trainL1.py
 ```
 
 The program can automatically save the most accurate (with the lowest RMSE on validation set) model in the `models` directory.
@@ -39,7 +39,7 @@ The program can automatically save the most accurate (with the lowest RMSE on va
 #### Evaluation
 
 ```python
-python eval.py
+python evalL1.py
 ```
 
 The saved model can be loaded and evaluating on the test set.
