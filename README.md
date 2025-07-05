@@ -18,7 +18,7 @@
 - **config.py**: The configuration file for setting the input data location, model parameters and model storage path.
 - **data_process**: For extracting the data of the selected center station and high correlated other stations, and transform the original data into the high dimensional matrix for matching the input structure of the model.
 - **eval.py**: For evaluating the model performance on the test set.
-- **models.py**: The core function for generating the ST-CausalConvNet for the prediction task. The model structure can be referred to the paper. It also contains the other models (SimpleRNN, GRU and LSTM) for comparison.
+- **models.py**: The core function for generating the model for the prediction task. The model structure can be referred to the paper. It also contains the other models (SimpleRNN, GRU and LSTM) for comparison.
 - **train.py**: It implements the reading parameters, data preparation and training procedure.
 - **utils.py**: It contains functions for the data loading and generating batch data for training and validating.
 
