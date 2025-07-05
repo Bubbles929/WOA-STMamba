@@ -1,11 +1,4 @@
-# ST-CausalConvNet
-A Spatiotemporal causal convolutional network for predicting PM2.5 concentrations.
 
-## Research paper
-
-Experiments are done by using PyTorch. If you find this repository helpful, please cite our work:
-
-> Zhang, L., Na, J., Zhu, J., Shi, Z., Zou, C., Yang, L., 2021. Spatiotemporal causal convolutional network for forecasting hourly PM2.5 concentrations in Beijing, China. ***Computers & Geosciences*** 104869. [https://doi.org/10.1016/j.cageo.2021.104869](https://doi.org/10.1016/j.cageo.2021.104869)
 
 ## Requirement
 
@@ -56,16 +49,3 @@ python eval.py
 
 The saved model can be loaded and evaluating on the test set.
 
-## License
-
-[Apache License v2.0](./LICENSE)
-
-## Thanks
-
-We thanks the previous work [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/abs/1803.01271) by Shaojie Bai, J. Zico Kolter and Vladlen Koltun, as the basic knowledge for TCN architecture in our research.
-
-## Contact
-
-For questions and supports please contact the author: Lei Zhang 张磊 (lei.zhang.geo@outlook.com)
-
-Lei Zhang's [Homepage](https://leizhang-geo.github.io/)
